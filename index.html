@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Survey Form</title>
+</head>
+<h1>GC Survey FORM</h1>
+<!-- Create Form -->
+
+<form id="form">
+
+    <!-- Details -->
+    <div class="font-cont">
+        <label for="name" id="label-name">Name</label>
+
+        <!-- Input Type Text -->
+        <input type="text" placeholder="Enter your name">
+    </div>
+
+    <div class="font-cont">
+        <label for="email" id="label-name">Email</label>
+
+        <!-- Input Type Text -->
+        <input type="text" placeholder="Enter your email">
+    </div>
+
+    <div class="font-cont">
+        <label for="number" id="label-name">Age</label>
+
+        <!-- Input Type Text -->
+        <input type="text" placeholder="Enter your age">
+    </div>
+
+    <div class="font-cont">
+        <label for="name" id="label-name">Which option best describes you?</label>
+
+        <!-- Select Text -->
+        <label>
+            <select>
+                <option value="Student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="Professional">Professinal
+                <option value="Others">other</option>
+                </option>
+            </select>
+        </label>
+
+    </div>
+
+    <div class="font-cont">
+        <label for="text" id="label-name">Would you recommend my services to a friend</label>
+
+        <!-- Pick Option -->
+        <label>
+            <input type="radio" name="recommend">Yes
+        </label>
+        <label>
+            <input type="radio" name="recommend">No
+        </label>
+        <label>
+          <input type="radio" name="recommend" >Maybe
+        </label>
+    </div>
+
+    <div class="font-cont">
+        <label for="name" id="label-name">Languages and Frameworks Known 
+            <small>(checks all that apply)</small>
+        </label>
+
+        <!-- CheckBok  -->
+        <label>
+            <input type="checkbox">C++
+        </label>
+
+        <label>
+            <input type="checkbox">C#
+        </label>
+
+        <label>
+            <input type="checkbox">Java
+        </label>
+
+        <label>
+            <input type="checkbox">HTML
+        </label>
+
+        <label>
+            <input type="checkbox">CSS
+        </label>
+        <label>
+            <input type="checkbox">javascript
+        </label>
+
+        <label>
+            <input type="checkbox">React
+        </label>
+
+        <label>
+            <input type="checkbox">Python
+        </label>
+    </div>
+    
+    <div class="font-cont">
+        <label for="text" id="label-name">Any comments or suggestions</label>
+
+        <!-- Input Type Text -->
+        <textarea placeholder="enter your comment"></textarea>
+    </div>
+
+    <button type="submit" >Submit ✅</button>
+</form>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(81, 89, 177);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form{
+    background-color: aliceblue;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+}
+textarea{
+    resize: none;
+}
+button{
+    background-color: rgb(105, 127, 200);
+    border: 1px solid black;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    font-size: 21px;
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    color: aliceblue;
+
+}
+.font-cont{
+    margin-bottom: 30px;
+    text-align: left;
+}
+.font-cont label{
+    display: block;
+    margin-bottom: 7px;
+}
+.font-cont input,
+.font-cont select,
+.font-cont textarea{
+    border: 1px solid black;
+    border-radius: 3px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+.font-cont input[type="radio"],
+.font-cont input[type="checkbox"]{
+    display: inline;
+    width: auto;
+}
